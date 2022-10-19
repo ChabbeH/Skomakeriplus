@@ -74,7 +74,7 @@ function Footer() {
 
 const FooterContainer = styled.div`
   background: white;
-  padding-top: 15rem;
+  padding-top: 10rem;
   font-size: 0, 9rem;
   color: var(--color-gray-200);
   width: var(--container-width-lg);
