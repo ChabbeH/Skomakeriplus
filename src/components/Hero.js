@@ -20,16 +20,14 @@ const HeaderContainer = styled.div`
   border-bottom: 2px solid var(--color-gray-400);
 `;
 const HeaderWrapper = styled.div`
-  /*  position: relative; */
   display: grid;
   place-items: center;
 `;
 const ContainerBg = styled.div`
-  /*   position: absolute; */
   width: 100%;
 `;
 const Image = styled.img`
-  opacity: 0.5;
+  opacity: 0.7;
   height: 100%;
 `;
 

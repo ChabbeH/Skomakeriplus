@@ -1,7 +1,5 @@
 import Logo from "../images/logga.jpg";
-import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import styled from "styled-components";
 
@@ -17,26 +15,13 @@ function Footer() {
           </p>
           <FooterSocials>
             <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaLinkedin />
-            </a>
-            <a
               href="https://www.facebook.com"
               target="_blank"
               rel="noreferrer noopener"
             >
               <FaFacebookF />
             </a>
-            <a
-              href="https://www.twitter.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <AiOutlineTwitter />
-            </a>
+
             <a
               href="https://www.instagram.com"
               target="_blank"
@@ -46,24 +31,6 @@ function Footer() {
             </a>
           </FooterSocials>
         </article>
-        {/* <article>
-          <h4> Permalinks</h4>
-          <Link to="/about">About</Link>
-          <Link to="/about">Gallery</Link>
-          <Link to="/about">Contact</Link>
-        </article>
-        <article>
-          <h4> Permalinks</h4>
-          <Link to="/about">About</Link>
-          <Link to="/about">Gallery</Link>
-          <Link to="/about">Contact</Link>
-        </article>
-        <article>
-          <h4> Permalinks</h4>
-          <Link to="/about">About</Link>
-          <Link to="/about">Gallery</Link>
-          <Link to="/about">Contact</Link>
-        </article> */}
       </FooterWrapper>
       <FooterCopyRights>
         <small>2022 Rimon &copy; All Rights Reserved</small>

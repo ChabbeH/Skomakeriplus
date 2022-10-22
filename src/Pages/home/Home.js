@@ -15,7 +15,9 @@ const Home = () => {
 };
 
 const Container = styled.div`
-  display: grid;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: white;
 `;
 
